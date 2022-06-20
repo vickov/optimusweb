@@ -58,12 +58,11 @@ class Index extends React.Component {
                 </div>
 
                 <div class="container-fluid">
-                    
-                    <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-                        <h3><svg class="icon icon-envelope-o"></svg>Zakažite termin</h3>
-                        <form action="https://getsimpleform.com/messages?form_api_token={{ site.api_token }}" method="post">
-                            <div class="form-field">
-                                <input name="name" type="text" placeholder="Ime i prezime" required />
+                <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
+                        <h3><svg class="icon icon-envelope-o"></svg>Zakažite termin</h3>   
+                <form action="https://getform.io/f/5467939a-4424-4f96-92d7-25aefb262eb4" method="POST">
+                        <div class="form-field">
+                            <input name="name" type="text" placeholder="Ime i prezime" required />
                             </div>
                             <div class="form-field">
                                 <input name="phone" type="tel" placeholder="Telefon" required />
@@ -75,9 +74,11 @@ class Index extends React.Component {
                                 <textarea name="comments" placeholder="Poruka" required></textarea>
                             </div>
                             <input type="submit" class="btn btn-default" value="Pošalji" />
-                        </form>
-                    </div>
-                </div>
+                </form>
+                                    </div>
+                                    </div>
+
+
             </div>
           </section>
 
@@ -86,6 +87,12 @@ class Index extends React.Component {
             <div class="col-sm-4">
                 <svg class="icon icon-envelope-o"></svg>
                 <h3>Kontaktirajte nas</h3>
+
+
+                <ul>
+                 
+                      <a href="tel:5551234567">Zovi (021)280-169</a>
+                </ul>
                 <ul>
                   Email
                 </ul>
