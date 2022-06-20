@@ -91,7 +91,7 @@ class Index extends React.Component {
 
                 <ul>
                  
-                      <a href="tel:5551234567">Zovi (021)280-169</a>
+                      <a href="tel:021280169">Zovi (021)280-169</a>
                 </ul>
                 <ul>
                   Email
