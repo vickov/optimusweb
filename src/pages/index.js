@@ -1,7 +1,10 @@
 import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
+import { graphql } from 'gatsby'
+import Gallery from '@browniebroke/gatsby-image-gallery'
 //import { Waypoint } from 'react-waypoint'
+
 import pic01 from '../assets/images/pic01.jpg'
 import heartsvg from '../assets/svg/heart-o.svg'
 import gl1 from '../assets/img/gallery/thumb/gl1.jpg'
@@ -9,19 +12,19 @@ import gl2 from '../assets/img/gallery/thumb/gl2.jpg'
 import tm1 from '../assets/img/team/team1.jpg'
 import tm2 from '../assets/img/team/team2.jpg'
 //import pic02 from '../assets/img/hero.jpg'
+
 import Header from '../components/Header'
 import Layout from '../components/layout'
 //import Nav from '../components/Nav'
 //import GoogleMap from '../components/GoogleMaps'
 import Maps from '../components/Maps'
 
-class Index extends React.Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      stickyNav: false,
-    }
-  }
+
+const Index = ({ data }) => {
+    const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
+    // `images` is an array of objects with `thumb` and `full`
+
+  
 /*
   _handleWaypointEnter = () => {
     this.setState(() => ({ stickyNav: false }))
@@ -31,7 +34,7 @@ class Index extends React.Component {
     this.setState(() => ({ stickyNav: true }))
   }
 */
-  render() {
+
     return (
       <Layout>
         <Helmet title="Optimus Dental" >
@@ -183,7 +186,7 @@ class Index extends React.Component {
 </div>
 </section>
 
-      <section id="team">
+  <section id="team">
   <div id="team" class="team"> 
     <h2 class="section-title">Naš tim</h2> 
     <div id="team-carousel" class="owl-carousel owl-theme">
@@ -235,91 +238,17 @@ class Index extends React.Component {
     
         
     
-        
+      <section id="gallery">
     
 
-      <div id="gallery" class="gallery">
-        
         <h2 class="section-title">Galerija</h2>
     
-        
-            <a href="assets/img/gallery/large/gl1.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src={gl1} alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
-            <a href="assets/img/gallery/large/gl2.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src={"assets/img/gallery/thumb/gl2.jpg"} alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
-            <a href="assets/img/gallery/large/gl3.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src="assets/img/gallery/thumb/gl3.jpg" alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
-            <a href="assets/img/gallery/large/gl4.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src={require('../assets/img/gallery/thumb/gl4.jpg')} alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
-            <a href="assets/img/gallery/large/gl5.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src="assets/img/gallery/thumb/gl5.jpg" alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
-            <a href="assets/img/gallery/large/gl1.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src="assets/img/gallery/thumb/gl1.jpg" alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
-            <a href="assets/img/gallery/large/gl2.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src="assets/img/gallery/thumb/gl2.jpg" alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>  
-            </a>
-        
-            <a href="assets/img/gallery/large/gl3.jpg" class="gallery-item expandable-box image-link">
-                <div class="expandable-box-top">
-                    <img src="assets/img/gallery/thumb/gl3.jpg" alt="something meaningful" />
-                </div>
-                <div class="expandable-box-bottom">
-                    <span><img src={heartsvg}></img></span>
-                </div>
-            </a>
-        
+        <Gallery images={images} />
+         
     
-    </div>
+    </section>
 
-
-      <section id="map" className="main special">
+      <section id="location" className="main special">
         <Maps />
       </section>
       
@@ -329,6 +258,25 @@ class Index extends React.Component {
 </Layout>
     )
   }
-}
+
+export const pageQuery = graphql`
+  query ImagesForGallery {
+    allFile {
+      edges {
+        node {
+          childImageSharp {
+            thumb: gatsbyImageData(
+              width: 200
+              placeholder: DOMINANT_COLOR
+            )
+            full: gatsbyImageData(layout: FULL_WIDTH)
+          }
+        }
+      }
+    }
+  }
+  `
+
 
 export default Index
+
