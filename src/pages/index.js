@@ -3,14 +3,20 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
 import Gallery from '@browniebroke/gatsby-image-gallery'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 //import { Waypoint } from 'react-waypoint'
 
 import pic01 from '../assets/images/pic01.jpg'
 import heartsvg from '../assets/svg/heart-o.svg'
 import gl1 from '../assets/img/gallery/thumb/gl1.jpg'
 import gl2 from '../assets/img/gallery/thumb/gl2.jpg'
-import tm1 from '../assets/img/team/team1.jpg'
-import tm2 from '../assets/img/team/team2.jpg'
+import DrVitasovic from '../assets/img/team/DrVitasovic.jpg'
+import DrJerkovic from '../assets/img/team/DrJerkovic.jpg'
+import DrTadin from '../assets/img/team/DrTadin.jpg'
+import DrKovacic from '../assets/img/team/DrKovacic.jpg'
+import Doris from '../assets/img/team/Doris.jpg'
+import Korina from '../assets/img/team/Korina.jpg'
 //import pic02 from '../assets/img/hero.jpg'
 
 import Header from '../components/Header'
@@ -19,6 +25,23 @@ import Layout from '../components/layout'
 //import GoogleMap from '../components/GoogleMaps'
 import Maps from '../components/Maps'
 
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+    slidesToSlide: 3 // optional, default to 1.
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+    slidesToSlide: 2 // optional, default to 1.
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+    slidesToSlide: 1 // optional, default to 1.
+  }
+};
 
 const Index = ({ data }) => {
     const images = data.allFile.edges.map(({ node }) => node.childImageSharp)
@@ -186,52 +209,37 @@ const Index = ({ data }) => {
 </div>
 </section>
 
+
   <section id="team">
-  <div id="team" class="team"> 
-    <h2 class="section-title">Naš tim</h2> 
-    <div id="team-carousel" class="owl-carousel owl-theme">
-       <div class="owl-wrapper-outer">
-          <div class="owl-wrapper">
-          <div class="owl-item"><div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src={tm1} alt="Britta Perry"/>
-                <h4>Britta Perry</h4>
-            </div>
-            <div class="expandable-box-bottom">
-                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"></span>
-                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"></span>
-            </div>
-        </div>
-       </div>
-      <div class="owl-item">
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="/dentistsmile/img/team2.jpg" alt="Troy Barnes"/>
-                <h4>Troy Barnes</h4>
-            </div>
-            <div class="expandable-box-bottom">
-                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"></span>
-                <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"></span>
-            </div>
-        </div>
-      </div>
-      <div class="owl-item">
-        <div class="expandable-box">
-           <div class="expandable-box-top">
-               <img src="/dentistsmile/img/team1.jpg" alt="Annie"/>
-               <h4>Annie</h4>
-           </div>
-           <div class="expandable-box-bottom">
-               <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="email@gmail.com"></span>
-               <span data-toggle="tooltip" data-placement="bottom" title="" data-original-title="9659 43 21"></span>
-           </div>
-        </div>
-      </div>
-      
-      </div>
-      </div>
-      </div>
-      </div>
+  
+<Carousel
+  swipeable={false}
+  draggable={false}
+  showDots={false}
+  responsive={responsive}
+  ssr={true} // means to render carousel on server-side.
+  infinite={false}
+  keyBoardControl={true}
+  customTransition="all .5"
+  transitionDuration={500}
+  containerClass="carousel-container"
+  removeArrowOnDeviceType={["tablet", "mobile"]}
+  dotListClass="custom-dot-list-style"
+  itemClass="carousel-item-padding-40-px"
+>
+  <div><img src={DrTadin} alt="Antonija Tadin"/>
+                <h4>Antonija Tadin</h4></div>
+  <div><img src={DrVitasovic} alt="Branimira Mikelić Vitasović"/>
+                <h4>Branimira Mikelić Vitasović</h4></div>
+  <div><img src={DrKovacic} alt="Ivan Kovacic"/>
+                <h4>Ivan Kovacic</h4></div>
+  <div><img src={DrJerkovic} alt="Daniel Jerković"/>
+                <h4>Daniel Jerković</h4></div>
+  <div><img src={Doris} alt="Daniel Jerković"/>
+                <h4>Doris</h4></div>
+  <div><img src={Korina} alt="Daniel Jerković"/>
+                <h4>Korina</h4></div>
+</Carousel>;
         
       </section>
         
