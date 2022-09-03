@@ -26,6 +26,7 @@
     "gatsby-transformer-sharp": "^4.17.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
-    "react-multi-carousel": "^2.8.2"
+    "react-multi-carousel": "^2.8.2",
+    "react-popupbox": "^2.0.9"
   }
 }

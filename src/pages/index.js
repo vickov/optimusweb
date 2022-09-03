@@ -5,6 +5,7 @@ import { graphql } from 'gatsby'
 import Gallery from '@browniebroke/gatsby-image-gallery'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import './carouselcss.css';
 //import { Waypoint } from 'react-waypoint'
 
 import pic01 from '../assets/images/pic01.jpg'
@@ -24,6 +25,8 @@ import Layout from '../components/layout'
 //import Nav from '../components/Nav'
 //import GoogleMap from '../components/GoogleMaps'
 import Maps from '../components/Maps'
+import Footer from '../components/Footer'
+
 
 const responsive = {
   desktop: {
@@ -211,8 +214,9 @@ const Index = ({ data }) => {
 
 
   <section id="team">
-  
+
 <Carousel
+  itemClass="carouselItem"
   swipeable={false}
   draggable={false}
   showDots={false}
@@ -225,21 +229,43 @@ const Index = ({ data }) => {
   containerClass="carousel-container"
   removeArrowOnDeviceType={["tablet", "mobile"]}
   dotListClass="custom-dot-list-style"
-  itemClass="carousel-item-padding-40-px"
+  partialVisible={false}
+  //itemClass="carousel-item-padding-40-px"
 >
-  <div><img src={DrTadin} alt="Antonija Tadin"/>
-                <h4>Antonija Tadin</h4></div>
+
+
+  <div>
+  <Link to="/Antonija"><img src={DrTadin} alt="Antonija Tadin"/></Link>
+  <div class="csl-container">
+    <h4><b>Antonija Tadin</b></h4>
+    <p>Specijalist endodoncije i restorativne stomatologije</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ac sem non libero elementum porta vehicula a leo. Maecenas id rhoncus risus.</p>
+  </div>
+  </div>
+  
+  
+  
+  
+                
   <div><img src={DrVitasovic} alt="Branimira Mikelić Vitasović"/>
                 <h4>Branimira Mikelić Vitasović</h4></div>
   <div><img src={DrKovacic} alt="Ivan Kovacic"/>
                 <h4>Ivan Kovacic</h4></div>
   <div><img src={DrJerkovic} alt="Daniel Jerković"/>
                 <h4>Daniel Jerković</h4></div>
-  <div><img src={Doris} alt="Daniel Jerković"/>
-                <h4>Doris</h4></div>
-  <div><img src={Korina} alt="Daniel Jerković"/>
-                <h4>Korina</h4></div>
-</Carousel>;
+  <div><img src={Doris} alt="Doris"/>
+                <h4>Doris Jadrijević</h4></div>
+  <div><img src={Korina} alt="Korina"/>
+                <h4>Korina Matulić
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  </h4></div>
+</Carousel>
         
       </section>
         
@@ -262,6 +288,7 @@ const Index = ({ data }) => {
       
     
 
+      <Footer />
       
 </Layout>
     )

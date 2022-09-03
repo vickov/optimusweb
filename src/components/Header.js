@@ -22,7 +22,6 @@ const Header = (props) => (
                 <li><a class="scroll" href="#about">O nama</a></li>
                 <li><a class="scroll" href="#treatments">Usluge</a></li>
                 <li><a class="scroll" href="#team">Naš tim</a></li>
-                <li><a class="scroll" href="#testimonials">Naši pacijenti</a></li>
                 <li><a class="scroll" href="#gallery">Galerija</a></li>
                 <li><a class="scroll" href="#location">Lokacija</a></li>
             </ul>

@@ -31,7 +31,7 @@ class Template extends React.Component {
         <div id="wrapper">
 
           {children}
-          <Footer />
+          
         </div>
       </div>
     )
