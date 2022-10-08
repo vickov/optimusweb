@@ -2,30 +2,13 @@ import { Link } from 'gatsby'
 import React from 'react'
 import Helmet from 'react-helmet'
 import { graphql } from 'gatsby'
-import Gallery from '@browniebroke/gatsby-image-gallery'
-import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import './carouselcss.css';
+import './card.css';
+import './test.css';
 //import { Waypoint } from 'react-waypoint'
-
-import pic01 from '../assets/images/pic01.jpg'
-import heartsvg from '../assets/svg/heart-o.svg'
-import gl1 from '../assets/img/gallery/thumb/gl1.jpg'
-import gl2 from '../assets/img/gallery/thumb/gl2.jpg'
-import DrVitasovic from '../assets/img/team/DrVitasovic.jpg'
-import DrJerkovic from '../assets/img/team/DrJerkovic.jpg'
-import DrTadin from '../assets/img/team/DrTadin.jpg'
-import DrKovacic from '../assets/img/team/DrKovacic.jpg'
-import Doris from '../assets/img/team/Doris.jpg'
-import Korina from '../assets/img/team/Korina.jpg'
-//import pic02 from '../assets/img/hero.jpg'
-
+import DrTadin from '../assets/img/team/DrTadin1.jpg'
 import Header from '../components/HeaderCV'
 import Layout from '../components/layout'
-//import Nav from '../components/Nav'
-//import GoogleMap from '../components/GoogleMaps'
-import Maps from '../components/Maps'
-import Footer from '../components/Footer'
 
 
 const Antonija = () => {
@@ -34,7 +17,38 @@ const Antonija = () => {
         <Helmet title="Optimus Dental" >
         </Helmet>
         <Header/>
-        <img src={DrTadin} alt="Antonija Tadin"/>
+        <div class="holdit frank" style={{backgroundImage: `url(${DrTadin})`, 
+        display: `block`, backgroundRepeat: `no-repeat`,
+        backgroundSize: `cover`}}>
+          <div class="profile-spacer who-spacer" style={{height: `41px`}}></div>
+          <div class="content-holder profiles meet">
+          <h2>Upoznajte naš tim</h2>
+          <p><b>Antonija Tadin</b>, specijalist endodoncije i restaurativne stomatologije</p>
+          <p class="sub-copy">
+          Izv. prof. dr. sc. Antonija Tadin rođena je 1978. godine u Splitu.
+          <br/>
+          <br/>
+          Diplomirala je 2003. godine na Stomatološkom fakultetu Sveučilišta u Zagrebu, 
+          gdje je 2007. i 2013. godine stekla akademske stupnjeve magistra i doktora znanosti. 
+          Specijalistički ispit iz endodoncije s restaurativnom stomatologijom položila je 2012. godine.
+          Između 2005. i 2009. godine radila je u Stomatološkoj poliklinici Split,
+          a od 2009. godine zaposlenik je studija za Dentalnu medicinu, Medicinskog fakulteta Sveučilišta u Splitu.
+          <br/>
+          <br/>
+          Voditelj je Katedre za restaurativnu dentalnu medicinu i endodonciju gdje aktivno sudjeluje u kliničkoj i pretkliničkoj nastavi. 
+          Sudjeluje u nastavi na doktorskom i poslijediplomskom specijalističkom studiju Stomatološkog fakultetu u Zagrebu, 
+          te predavanjima u okviru trajne izobrazbe stomatologa.
+          <br/>
+          <br/>
+          Urednik je udžbenika „Prevencija u dentalnoj medicini“.
+          Aktivno je sudjelovala na brojnim međunarodnim znanstvenim konferencijama te autor preko 100 stručnih, preglednih znanstvenih radova. 
+          Članica je domaćih i inozemnih strukovnih organizacija. 
+            
+            <br/>
+            <br/>
+          </p>
+        </div>
+        </div>
     </Layout>
   )
 }

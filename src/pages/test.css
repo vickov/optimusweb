@@ -1,0 +1,45 @@
+.content-holder {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.profiles {
+  padding-top: 20px;
+}
+
+.profiles p {
+  font-size: 16px;
+  color: #333333;
+}
+
+.meet p {
+  /*color: #fff !important;*/
+}
+
+.meet h2 {
+  /*color: #fff !important;*/
+}
+
+.facebook {
+  cursor: pointer;
+}
+
+.profiles h2 {
+  font-weight: 900;
+  font-size: 64px;
+  color: #333333;
+  width: 100%;
+  border-bottom: 1px solid #333333;
+  margin-bottom: 10px !important;
+}
+
+
+.profiles .sub-copy {
+  margin-top: 15px;
+  margin: 0;
+  padding: 0;
+  width: 310px;
+  line-height: 25px;
+  padding-top: 20px;
+}
