@@ -6,7 +6,7 @@ import 'react-multi-carousel/lib/styles.css';
 import './card.css';
 import './test.css';
 //import { Waypoint } from 'react-waypoint'
-import DrTadin from '../assets/img/team/DrTadin1.jpg'
+import DrTadin from '../assets/img/team/DrTadin3.jpg'
 import Header from '../components/HeaderCV'
 import Layout from '../components/layout'
 
