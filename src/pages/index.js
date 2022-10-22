@@ -104,7 +104,7 @@ const Index = ({ data }) => {
                 <h3>Kontaktirajte nas</h3>
                 <ul>
                 <b>Telefon: </b>
-                    <a href="tel:021280169">(021) 280-169</a>
+                <h2><a href="tel:021280169">(021) 280-169</a></h2>
                 </ul>
                 <ul>
                 <b>Email: </b> <a href="mailto:info@optimusdental.hr">info@optimusdental.hr</a>
@@ -195,7 +195,19 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
                         <h4>Oralna kirurgija</h4>
-                        <p>Oralna kirurgija stomatološka je grana koja se odnosi na kirurške zahvate na području naših usta i čeljusti. </p>
+                        <p>Oralna kirurgija uključuje različite kirurške zahvate kojima se rješavaju različiti poremećaji ili anomalije usne šupljine, 
+                          u slučaju da vam one otežavaju svakodnevne funkcije poput žvakanja hrane, ili uzrokuju jake bolove.
+                        Kirurški zahvati u području usne šupljine vrlo često prethode drugim implantološkim i protetskim zahvatima. 
+                        <br></br>               
+                        Kirurške zahvate najčešće preporučujemo pacijentima koji trebaju rješavanje nepovoljnih bioloških i anatomskih situacija
+                          u usnoj šupljini, ali i estetskih, funkcionalnih i ostalih anomalija te bolesti na tom području.Najčešći oralno-kiruški 
+                          zahvati su:
+                          <br></br>  - vađenje zubi
+                          <br></br>- resekcije korijena zuba (apikotomija)
+                          <br></br>- ugradnja umjetne kosti (augmentacija) 
+                          <br></br>- podizanje sinusa (sinus lift)
+                          <br></br>- ugradnja implantata.
+                          </p>
                     </div>
                 </div>
             
