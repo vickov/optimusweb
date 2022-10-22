@@ -260,7 +260,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   customTransition="all .5"
   transitionDuration={500}
   containerClass="carousel-container"
-  removeArrowOnDeviceType={["tablet", "mobile"]}
+  removeArrowOnDeviceType={}
   dotListClass="custom-dot-list-style"
   partialVisible={false}
   //itemClass="carousel-item-padding-40-px"
