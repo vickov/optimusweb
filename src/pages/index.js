@@ -6,6 +6,7 @@ import Gallery from '@browniebroke/gatsby-image-gallery'
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import './carouselcss.css';
+import './links.css'
 //import { Waypoint } from 'react-waypoint'
 
 import pic01 from '../assets/images/pic01.jpg'
@@ -53,28 +54,13 @@ const Index = ({ data }) => {
     // `images` is an array of objects with `thumb` and `full`
 
   
-/*
-  _handleWaypointEnter = () => {
-    this.setState(() => ({ stickyNav: false }))
-  }
-
-  _handleWaypointLeave = () => {
-    this.setState(() => ({ stickyNav: true }))
-  }
-*/
     const [showMore, setShowMore] = useState(false);
     return (
       <Layout>
         <Helmet title="Optimus Dental" >
         </Helmet>
         <Header />
-{/*
-        <Waypoint
-          onEnter={this._handleWaypointEnter}
-          onLeave={this._handleWaypointLeave}
-        ></Waypoint>
-        <Nav sticky={this.state.stickyNav} />
- */}
+
         
           <section id="form" className="main">
 
@@ -117,10 +103,11 @@ const Index = ({ data }) => {
                 <svg class="icon icon-envelope-o"></svg>
                 <h3>Kontaktirajte nas</h3>
                 <ul>
-                      <a href="tel:021280169">Zovi (021)280-169</a>
+                <b>Telefon: </b>
+                    <a href="tel:021280169">(021) 280-169</a>
                 </ul>
                 <ul>
-                  Email
+                <b>Email: </b> <a href="mailto:info@optimusdental.hr">info@optimusdental.hr</a>
                 </ul>
             </div>
             <div class="col-sm-4">
@@ -147,7 +134,7 @@ const Index = ({ data }) => {
                 <svg class="icon icon-map-marker"></svg>
                 <h3>Lokacija</h3>
                     <p>
-                        Poljicka 28a, Split
+                        <a href="https://goo.gl/maps/BXQSWx3cdAERrvP77">Poljicka 28a, Split</a>
                     </p>
             </div>
           </div>
@@ -184,11 +171,11 @@ const Index = ({ data }) => {
 Pulpno tkivo se može inficirati/oštetiti/upaliti kao posljedica karijesnih lezija, parodontne bolesti, traume zuba ili određenih zahvata na zubu. Endodontske infekcije, iako su često bezbolne, mogu se manifestirati bolovima u rasponu od blagih do nesnosnih. Bol može biti izazvana nizom čimbenika (vruća ili hladna temperatura prilikom konzumiranja hrane, pritisak na zub) ili biti spontana. Osim boli, na oštećenje pulpnog tkiva može upućivati promjena boje zuba, oteklina i pojava sinus trakta („fistule ili gnojnog prištića“) u visini korijena zuba.
 Endodontska terapija sastoji se od uklanjanja oboljelog pulpnog tkiva, dezinfekcije pulpnog prostora i njegovog ispunjavanja zamjenskim materijalom. Primarni cilj endodontske terapije je što dulje sačuvati prirodni zub, a time i zaštititi pacijente od dugog procesa i visokih troškova nadomjeska zuba. Endodontski zahvati mogu biti bolni, ali primjena lokalnih anestetika ih čini bezbolnima. Većina endodontskih zahvata traje između jednog i dva sata, ovisno o opsegu oštećenja i broju zahvaćenih zuba. Ne zahtijevaju dugo vrijeme za oporavak, a većina pacijenata može nastaviti sa svojim normalnim aktivnostima odmah. Iako je normalno osjetiti određenu nelagodu nakon zahvata, ona je obično blaga i ne ometa normalne aktivnosti.
 Stručnjak dentalne medicine koji je specijaliziran za ovo područje naziva se endodont. Da bi to postao, osim završiti stomatološki fakultet doktor dentalne medicine mora proći specijaliziranu edukaciju koja traje tri godine. U obavljanju svog posla, endodonti provode različite postupke liječenja, uključujući:
-·        Endodontsku terapiju poznatiju kao liječenje korijenskog kanala
-·        Endodontsko ponovno liječenje („revizija endodontskog liječenja“)
-·        Liječenje traumatskih ozljeda zuba
-·        Liječenje napuklih ili oštećenih zuba
-·        Endodontsku kirurgiju
+<br></br>· Endodontsku terapiju poznatiju kao liječenje korijenskog kanala
+<br></br>· Endodontsko ponovno liječenje („revizija endodontskog liječenja“)
+<br></br>· Liječenje traumatskih ozljeda zuba
+<br></br>· Liječenje napuklih ili oštećenih zuba
+<br></br>· Endodontsku kirurgiju
 Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu nakon tretmana obratite se timu Optimus dentala.</p>
                     </div>
                 </div>
@@ -307,16 +294,17 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   </div>
 
   <div><img src={Doris} alt="Doris"/>
-                <h4><b>Doris Jadrijević</b></h4></div>
+                <h4><b>Doris Jadrijević</b></h4>
                 <p>Dentalni asistent</p>
+                </div>
   <div><img src={Korina} alt="Korina"/>
-                <h4>Korina Matulić</h4></div>
+                <h4><b>Korina Matulić</b></h4>
                 <p>Dentalni asistent - pripravnik</p>
+                </div>
 </Carousel>
         
       </section>
-        
-    
+
       <section id="gallery">
         <h2 class="section-title">Galerija</h2>
         <Gallery images={images} />

@@ -25,7 +25,7 @@ const Footer = props => (
                     <b> Adresa: </b> Poljička 28a, Split<br/><br/> 
                     <b> Telefon ordinacije: </b> +385 (0)21 280 910<br/><br/> 
                     <b> Radno vrijeme: </b><br/>
-                    od Pon– Pet .12: 00 h– 20: 00 h <br/>
+                    od Pon– Pet. 12:00h – 20:00h <br/>
                 </div>
 
                 

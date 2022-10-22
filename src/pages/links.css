@@ -1,0 +1,15 @@
+a[href^="tel:"] {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 0.em;
+  }
+  a[href^="mailto:"] {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-right: 0.8em;
+  }
+  a[href^="https:"] {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 0.8em;
+    }
