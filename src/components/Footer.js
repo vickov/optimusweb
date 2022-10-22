@@ -22,7 +22,7 @@ const Footer = props => (
                 <div class="col-sm-4">
                 <h3> Optimus Dental </h3>
                     <b>Optimus Dental d.o.o.</b> <br/> <br/>
-                    <b> Adresa: </b> Poljička 28a, Split<br/><br/> 
+                    <b> Adresa: </b> Poljička cesta 28a, Split<br/><br/> 
                     <b> Telefon ordinacije: </b> +385 (0)21 280 910<br/><br/> 
                     <b> Radno vrijeme: </b><br/>
                     od Pon– Pet. 12:00h – 20:00h <br/>
