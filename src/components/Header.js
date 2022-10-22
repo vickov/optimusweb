@@ -19,7 +19,6 @@ const Header = (props) => (
         <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li><a class="scroll" href="#top">Početna</a></li>
-                <li><a class="scroll" href="#about">O nama</a></li>
                 <li><a class="scroll" href="#treatments">Usluge</a></li>
                 <li><a class="scroll" href="#team">Naš tim</a></li>
                 <li><a class="scroll" href="#gallery">Galerija</a></li>
