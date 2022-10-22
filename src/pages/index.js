@@ -256,7 +256,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Antonija_Tadin"><img src={DrTadin} alt="Antonija Tadin"/></Link>
   <div class="csl-container">
-    <h4><b>Antonija Tadin</b></h4>
+    <h4><b>Izv. prof. dr. sc. Antonija Tadin</b></h4>
     <p>Specijalist endodoncije i restorativne stomatologije</p>
     <p></p>
   </div>
@@ -265,7 +265,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Branimira_Mikelic_Vitasovic"><img src={DrVitasovic} alt="Branimira Mikelić Vitasović"/></Link>
   <div class="csl-container">
-    <h4><b>Branimira Mikelić Vitasović</b></h4>
+    <h4><b>Mr. sc. Branimira Mikelić Vitasović</b></h4>
     <p>Specijalist ortodoncije</p>
     <p></p>
   </div>
@@ -277,7 +277,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Ivan_Kovacic"><img src={DrKovacic} alt="Ivan Kovačić"/></Link>
   <div class="csl-container">
-  <h4><b>Ivan Kovacic</b></h4>
+  <h4><b>Izv. prof. dr. sc. Ivan Kovacic</b></h4>
     <p>Specijalist protetike</p>
     <p></p>
   </div>
@@ -287,14 +287,14 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Daniel_Jerkovic"><img src={DrJerkovic} alt="Daniel Jerković"/></Link> 
   <div class="csl-container">
-  <h4><b>Daniel Jerkovic</b></h4>
+  <h4><b>Doc. dr. sc. Daniel Jerkovic</b></h4>
     <p>Specijalist kirurgije</p>
     <p></p>
   </div>
   </div>
 
   <div><img src={Doris} alt="Doris"/>
-                <h4><b>Doris Jadrijević</b></h4>
+                <h4><b>Doris Jadrijević Tomas</b></h4>
                 <p>Dentalni asistent</p>
                 </div>
   <div><img src={Korina} alt="Korina"/>
