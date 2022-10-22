@@ -134,7 +134,7 @@ const Index = ({ data }) => {
                 <svg class="icon icon-map-marker"></svg>
                 <h3>Lokacija</h3>
                     <p>
-                        <a href="https://goo.gl/maps/BXQSWx3cdAERrvP77">Poljicka 28a, Split</a>
+                        <a href="https://goo.gl/maps/BXQSWx3cdAERrvP77">Poljicka cesta 28a, Split</a>
                     </p>
             </div>
           </div>
@@ -268,7 +268,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Antonija_Tadin"><img src={DrTadin} alt="Antonija Tadin"/></Link>
   <div class="csl-container">
-    <h4><b>Izv. prof. dr. sc. Antonija Tadin</b></h4>
+    <h4><b>Izv. prof. dr. sc. Antonija Tadin dr.dent.med.</b></h4>
     <p>Specijalist endodoncije i restorativne stomatologije</p>
     <p></p>
   </div>
@@ -277,7 +277,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Branimira_Mikelic_Vitasovic"><img src={DrVitasovic} alt="Branimira Mikelić Vitasović"/></Link>
   <div class="csl-container">
-    <h4><b>Mr. sc. Branimira Mikelić Vitasović</b></h4>
+    <h4><b>Mr. sc. Branimira Mikelić Vitasović dr.dent.med.</b></h4>
     <p>Specijalist ortodoncije</p>
     <p></p>
   </div>
@@ -289,7 +289,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Ivan_Kovacic"><img src={DrKovacic} alt="Ivan Kovačić"/></Link>
   <div class="csl-container">
-  <h4><b>Izv. prof. dr. sc. Ivan Kovacic</b></h4>
+  <h4><b>Izv. prof. dr. sc. Ivan Kovacic dr.dent.med.</b></h4>
     <p>Specijalist protetike</p>
     <p></p>
   </div>
@@ -299,7 +299,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   <div>
   <Link to="/Daniel_Jerkovic"><img src={DrJerkovic} alt="Daniel Jerković"/></Link> 
   <div class="csl-container">
-  <h4><b>Doc. dr. sc. Daniel Jerkovic</b></h4>
+  <h4><b>Doc. dr. sc. Daniel Jerkovic dr.dent.med.</b></h4>
     <p>Specijalist kirurgije</p>
     <p></p>
   </div>
