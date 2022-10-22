@@ -108,8 +108,6 @@ const Index = ({ data }) => {
                 </form>
                                     </div>
                                     </div>
-
-
             </div>
           </section>
 
@@ -118,10 +116,7 @@ const Index = ({ data }) => {
             <div class="col-sm-4">
                 <svg class="icon icon-envelope-o"></svg>
                 <h3>Kontaktirajte nas</h3>
-
-
                 <ul>
-                 
                       <a href="tel:021280169">Zovi (021)280-169</a>
                 </ul>
                 <ul>
@@ -237,11 +232,11 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
             
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <h4>Dječja i preventativna stomatologija</h4>
-                        <p>Dječja stomatologija je grana stomatologije koja se bavi oralnim zdravljem djece od rođenja do adolescencije. 
+                        <h4>Dječja i preventivna stomatologija</h4>
+                        <p>Dječja stomatologija je grana stomatologije koja se bavi oralnim zdravljem djece od rođenja do adolescencije.</p>
                         <p>Što raniji posjeti dječjem stomatologu (pedodontu) ključni su za održavanje oralnog zdravlja i promjenu nenormalnih navika.
                           Roditelji bivaju savjetovani o načinu oralne higijene (četkanje, čišćenje zubnim koncem i fluoridima), procjenjuje se rizik od karijesa,
-                          daju informacije o navikama sisanje palca i dude​​ i daju savjeti o sprječavanju ozljeda usta i zuba djece, prehrani, te informacije o rastu i razvoju.</p> 
+                          daju informacije o navikama sisanja palca i dude​​ i daju savjeti o sprječavanju ozljeda usta i zuba djece, prehrani, te informacije o rastu i razvoju.</p> 
                     </div>
                 </div>
             

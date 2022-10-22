@@ -33,7 +33,7 @@ const Footer = props => (
                 <h3> Podaci o tvrtki </h3>
                     <b>OIB:</b> 79846894337 <b> MBS: </b> 060399772<br/>
                     Trgovački sud u Splitu <br/>
-                    <b> Član uprave: </b> Branimira Mikelić Vitasović<br/> 
+                    <b> Članovi uprave: </b> Branimira Mikelić Vitasović, Antonija Tadin, Ivan Kovačić<br/> 
                     <b> Temeljni kapital: </b> 20 000,00kn uplaćen u cjelosti<br/><br/>
                     <b> Poslovni račun: </b><br/> 
                     <b> PRIVREDNA BANKA ZAGREB d.d. </b><br/> 
@@ -44,7 +44,7 @@ const Footer = props => (
                 <div class="col-sm-4"> 
                 <h3></h3> 
                 Svim našim pacijentima nudimo brojne popuste kao i više mogućnosti plaćanja prilikom posjeta Optimus Dentalu. <br/> <br/>
-                Primamo <b> Visa </b> karticu XXXXX banke i <b>American</b> do 12 rata, te Diners od 2 do 36 rata bez kamata.American karticu primamo i kao potrošački kredit do 60 rata.
+                Primamo <b> Visa </b>, <b> Mastercard </b> i <b> American Express </b>  kartice. Za korisnike s Premium Visa karticama nudi se obročna otplata bez kamata i naknada.   
                 </div>
         
             </div>
