@@ -307,9 +307,11 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   </div>
 
   <div><img src={Doris} alt="Doris"/>
-                <h4>Doris Jadrijević</h4></div>
+                <h4><b>Doris Jadrijević</b></h4></div>
+                <p>Dentalni asistent</p>
   <div><img src={Korina} alt="Korina"/>
                 <h4>Korina Matulić</h4></div>
+                <p>Dentalni asistent - pripravnik</p>
 </Carousel>
         
       </section>
