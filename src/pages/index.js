@@ -41,8 +41,8 @@ const responsive = {
   },
   mobile: {
     breakpoint: { max: 464, min: 0 },
-    items: 3,
-    slidesToSlide: 2 // optional, default to 1.
+    items: 1,
+    slidesToSlide: 1 // optional, default to 1.
   }
 };
 
@@ -238,7 +238,10 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
                         <h4>Dječja i preventativna stomatologija</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?</p>
+                        <p>Dječja stomatologija je grana stomatologije koja se bavi oralnim zdravljem djece od rođenja do adolescencije. 
+                        <p>Što raniji posjeti dječjem stomatologu (pedodontu) ključni su za održavanje oralnog zdravlja i promjenu nenormalnih navika.
+                          Roditelji bivaju savjetovani o načinu oralne higijene (četkanje, čišćenje zubnim koncem i fluoridima), procjenjuje se rizik od karijesa,
+                          daju informacije o navikama sisanje palca i dude​​ i daju savjeti o sprječavanju ozljeda usta i zuba djece, prehrani, te informacije o rastu i razvoju.</p> 
                     </div>
                 </div>
             
