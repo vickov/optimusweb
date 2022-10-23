@@ -25,7 +25,7 @@ const Footer = props => (
                     <b> Adresa: </b> Poljička cesta 28a, Split<br/><br/> 
                     <b> Telefon ordinacije: </b> +385 (0)21 280 910<br/><br/> 
                     <b> Radno vrijeme: </b><br/>
-                    od Pon– Pet. 12:00h – 20:00h <br/>
+                    od Pon–Pet. 12:00h – 20:00h <br/>
                 </div>
 
                 
@@ -43,7 +43,6 @@ const Footer = props => (
                 
                 <div class="col-sm-4"> 
                 <h3></h3> 
-                Svim našim pacijentima nudimo brojne popuste kao i više mogućnosti plaćanja prilikom posjeta Optimus Dentalu. <br/> <br/>
                 Primamo <b> Visa </b>, <b> Mastercard </b> i <b> American Express </b>  kartice. Za korisnike s Premium Visa karticama nudi se obročna otplata bez kamata i naknada.   
                 </div>
         
