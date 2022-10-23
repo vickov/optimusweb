@@ -27,6 +27,7 @@ import Layout from '../components/layout'
 //import GoogleMap from '../components/GoogleMaps'
 import Maps from '../components/Maps'
 import Footer from '../components/Footer'
+import { Email } from "react-obfuscate-email";
 
 
 const responsive = {
@@ -106,8 +107,11 @@ const Index = ({ data }) => {
                 <b>Telefon: </b>
                 <h2><a href="tel:021280169">(021) 280-169</a></h2>
                 </ul>
+                <ul></ul>
                 <ul>
-                <b>Email: </b> <a href="mailto:info@optimusdental.hr">info@optimusdental.hr</a>
+                <b>Email: </b>
+                <br></br>
+                <b><Email email="info@optimusdental.hr">📧 info@optimusdental.hr</Email></b>
                 </ul>
             </div>
             <div class="col-sm-4">
