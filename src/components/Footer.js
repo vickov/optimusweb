@@ -42,8 +42,9 @@ const Footer = props => (
                 
                 
                 <div class="col-sm-4"> 
-                <h3></h3> 
-                Primamo <b> Visa </b>, <b> Mastercard </b> i <b> American Express </b>  kartice. Za korisnike s Premium Visa karticama nudi se obročna otplata bez kamata i naknada.   
+                <h3></h3>Plaćanje je moguće u gotovini i karticama.<br/><br/>
+                Primamo <b> Visa </b>, <b> Mastercard </b> i <b> American Express </b>  kartice.
+                Za korisnike s Premium Visa karticama nudi se obročna otplata bez kamata i naknada.   
                 </div>
         
             </div>
