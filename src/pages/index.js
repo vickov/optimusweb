@@ -105,7 +105,7 @@ const Index = ({ data }) => {
                 <h3>Kontaktirajte nas</h3>
                 <ul>
                 <b>Telefon: </b>
-                <h2><a href="tel:021280169">(021) 280-169</a></h2>
+                <h2><a href="tel:021280910">(021) 280-910</a></h2>
                 </ul>
                 <ul></ul>
                 <ul>
