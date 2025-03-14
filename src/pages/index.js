@@ -288,27 +288,8 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
   </div>
   
   
-  
-  
-  <div>
-  <Link to="/Ivan_Kovacic"><img src={DrKovacic} alt="Ivan Kovačić"/></Link>
-  <div class="csl-container">
-  <h4><b>Izv. prof. dr. sc. Ivan Kovacic dr. dent. med.</b></h4>
-    <p>Specijalist protetike</p>
-    <p></p>
-  </div>
-  </div>
 
-                
-  <div>
-  <Link to="/Daniel_Jerkovic"><img src={DrJerkovic} alt="Daniel Jerković"/></Link> 
-  <div class="csl-container">
-  <h4><b>Doc. dr. sc. Daniel Jerkovic dr. dent. med.</b></h4>
-    <p>Specijalist kirurgije</p>
-    <p></p>
-  </div>
-  </div>
-
+  
   <div><img src={Doris} alt="Doris"/>
                 <h4><b>Doris Jadrijević Tomas</b></h4>
                 <p>Dentalni asistent</p>
