@@ -152,23 +152,7 @@ const Index = ({ data }) => {
 
         <div class="row">
             
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        
-                        <h4>Protetika</h4>
-                        <p>Stomatološka protetika temeljena je na jasno utvrđenim znanstvenim načelima te kliničkim iskustvima. 
-                          Ona uključuje klinički i zubotehnički rad u konvencionalnoj i implato-protetskoj terapiji i rehabilitaciji djelomično ili potpuno bezubih pacijenata. 
-                          Dentalna protetika uključuje fiksne i mobilne protetske radove. Fiksna protetika može nadomjestiti krunu zuba,
-                           odnosno jedan ili više izgubljenih zuba i tako vratiti pacijentu  funkcionalnost, prirodan izgled i osjećaj ugode.
-                          Imamo nekoliko vrsta fiksnoprotetskih radova poput krunica i mostova (metal keramičkih ili potpuno keramičkih), 
-                          keramičkih ljuskica te fiksno protetskih radova na implantatima. Mobilna protetika bavi se vraćanjem i održavanjem normalne 
-                          funkcije stomatognatog sustava kod potpuno bezubih ili djelomično bezubih  pacijenata.
-                           Potpune ili djelomične proteze u potpunosti rehabilitiraju pacijenta i uspostavljaju narušenu funkciju i estetiku.
-</p>
-                    </div>
-                </div>
-            
-                <div class="col-sm-6 col-md-4">
+                  <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
                         <h4>Endodoncija</h4>
                         <p>Endodoncija (grč. „endo“ – iznutra, grč. „odons“ – zub) je grana dentalne medicine koja se bavi dijagnostikom, liječenjem i prevencijom bolesti zubne pulpe i okolnih tkiva. Zubna pulpa je meko tkivo u središtu zuba okruženo caklinom i dentinom, a sadrži živce, krvne i limfne žile te vezivno tkivo.
@@ -196,25 +180,7 @@ Za dodatne informacije o endodontskom postupku, uključujući smjernice za njegu
                     </div>
                 </div>
             
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <h4>Oralna kirurgija</h4>
-                        <p>Oralna kirurgija uključuje različite kirurške zahvate kojima se rješavaju različiti poremećaji ili anomalije usne šupljine, 
-                          u slučaju da vam one otežavaju svakodnevne funkcije poput žvakanja hrane, ili uzrokuju jake bolove.
-                        Kirurški zahvati u području usne šupljine vrlo često prethode drugim implantološkim i protetskim zahvatima. 
-                        <br></br>               
-                        Kirurške zahvate najčešće preporučujemo pacijentima koji trebaju rješavanje nepovoljnih bioloških i anatomskih situacija
-                          u usnoj šupljini, ali i estetskih, funkcionalnih i ostalih anomalija te bolesti na tom području.Najčešći oralno-kiruški 
-                          zahvati su:
-                          <br></br>  - vađenje zubi
-                          <br></br>- resekcije korijena zuba (apikotomija)
-                          <br></br>- ugradnja umjetne kosti (augmentacija) 
-                          <br></br>- podizanje sinusa (sinus lift)
-                          <br></br>- ugradnja implantata.
-                          </p>
-                    </div>
-                </div>
-            
+               
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
                         <h4>Ortodoncija</h4>
